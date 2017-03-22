@@ -6,7 +6,7 @@ mip-em-hq  自有业务详情页整体交互组件
 ----|----
 类型|业务，定制
 支持布局|responsive,fill,container
-所需脚本|https://mipcache.bdstatic.com/static/v1/mip-em-hq/mip-em-hq.js
+所需脚本|https://mipcache.bdstatic.com/extensions/platform/v1/mip-em-hq/mip-em-hq.js
 
 ## 示例
 
@@ -74,24 +74,14 @@ mip-em-hq  自有业务详情页整体交互组件
                 </div>
                 <table id="pic_plans_box" class="stock_nav_bar_table" cellpadding="0" cellspacing="0" border="0" width="100%">
                     <tr>
-                        <td id="tab-0" target="emchart-0" class="hover"><span tab="Timeplan">分时</span></td>
-                        <td id="tab-1" target="emchart-1"><span tab="DailyK">日K</span></td>
-                        <td id="tab-2" target="emchart-2"><span tab="WeekK">周K</span></td>
-                        <td id="tab-3" target="emchart-3"><span tab="MonthK">月K</span></td>
+                        <td id="tab-0" data-type="imageType=r" class="hover"><span tab="Timeplan">分时</span></td>
+                        <td id="tab-1" data-type="imageType=k"><span tab="DailyK">日K</span></td>
+                        <td id="tab-2" data-type="imageType=k&type=w"><span tab="WeekK">周K</span></td>
+                        <td id="tab-3" data-type="imageType=k&type=m"><span tab="MonthK">月K</span></td>
                     </tr>
                 </table>
                 <div class="content_canvas more" id="wdmxContainer">
-                    <div class="canvas-name"><span class="name">东方财富(300059)</span></div>
-                    <div class="emchart">
-                        <div id="emchart-0" class="em-tab">
-                        </div>
-                        <div id="emchart-1" class="em-tab">
-                        </div>
-                        <div id="emchart-2" class="em-tab">
-                        </div>
-                        <div id="emchart-3" class="em-tab">
-                        </div>
-                    </div>
+                
                 </div>
 
             </div>
