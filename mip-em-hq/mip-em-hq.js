@@ -4,9 +4,9 @@
  */
 define(function (require) {
     var customElem = require('customElement').create();
-    var num = require('./mip-em-hqnum');
-    var common = require('./mip-em-hgcommon');
-    var pageevent = require('./mip-em-hqevent');
+    var num = require('./em-hqnum');
+    var common = require('./em-hqcommon');
+    var pageevent = require('./em-hqevent');
     var $ = require('zepto');
 
     // build 方法，元素插入到文档时执行，仅会执行一次
